@@ -1,10 +1,11 @@
-#Wildfly configuration test project
-##1. Default values
+# Wildfly configuration test project
+
+## 1. Default values
   - **Database user:** root
   - **Database password:** Password0!
   - **Database name:** timergame
 
-##2. How to change configuration?
+## 2. How to change configuration?
 If you want to change the configuration to match your environment, go in the extracted Wildfly repository you download from this Github and edit **standalone/configuration/standalone.xml**.
 At **line 127** you'll find the datasource subsystem.
 
